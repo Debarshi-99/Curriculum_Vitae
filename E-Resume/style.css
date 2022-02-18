@@ -1,0 +1,193 @@
+*{
+    padding: 0%;
+    margin: o.5%;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Cabin', sans-serif;
+}
+body{
+    background-color: black; 
+} 
+.main-content{
+    min-height: 100vh;
+    width: 97%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.left-section{
+    grid-column: span 2;
+    height: 100%;
+    background-color: powderblue;
+}
+.right-section{
+    grid-column: span 5;
+    height: 100%;
+    background-color: #00324a;
+
+}
+
+.left-content{
+    padding: 1rem 2rem;
+}
+.profile{
+    width: 100%;
+    border-bottom: 2px solid #00324a;
+}
+.profile img{
+    width: 100%;
+    border-radius:70%;
+    border: 8px solid orangered;
+
+}
+.Name{
+    font-size: 2rem;
+    color: #00324a;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.Career{
+    font-size: 1.5rem;
+    text-align: center;
+    
+    
+}
+.main-title{
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    text-decoration: underline;
+}
+.contact-info ul{
+    padding: 0.3rem 0;
+}
+.contact-info ul li{
+    padding: 0.2rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.contact-info ul i{
+    padding-right: 1.5rem;
+    font-size: 1.1rem;
+    color: #00324a;
+}
+.Skill-Section ul li{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   align-items: center;
+}
+.Progress-Bar{
+    width: 100%;
+    height: 0.4rem;
+    background-color: #00324a;
+    position: relative;
+    border-radius: 12px;
+}
+.progress{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: orangered;
+    border-radius: 12px;
+}
+.C-progress{
+    width: 85%;
+}
+.Skill-Title{
+   font-size: 1rem;
+    
+}
+.Python-progress{
+    width: 75%;
+}
+.Html-progress{
+    width: 70%;
+}
+.css-progress{
+    width: 70%;
+}
+.sql-progress{
+    width: 90%;
+}
+.cpp-progress{
+    width: 60%;
+}
+.js-progress{
+    width: 65%;
+}
+.social-section ul{
+    padding: 0.3rem 0;
+}
+.social-section ul li{
+    padding: 0.2rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.social-section ul i{
+    padding-right: 1.5rem;
+    font-size: 4rem;
+    color: #00324a;
+}
+.right-main-content{
+    padding: 1rem 2rem;
+}
+.Right-title{
+    letter-spacing: 1px;
+    font-size: 1.7rem;
+    color: orangered;
+    
+}
+
+
+.para{
+    color: #fff;
+    font-size: 1.3rem;   
+}
+.sect{
+    padding-bottom: 2rem;
+}
+.timeline{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.tl-title{
+    color: #fff;
+
+}  
+.tl-content{
+    border-left: 1px solid orangered;
+    padding-left: 2rem;
+}
+.t1-title ::before{
+    content: "";
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    background-color: orangered;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    left: 0;
+}
+.training-sect ul li{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.lang-sect ul li{
+    font-size: 1.2rem;
+}
+.Interest-sect .resume-info{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: floralwhite;
+    font-size: 1.3rem;
+}
+.int-icon{
+    color: orangered;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
